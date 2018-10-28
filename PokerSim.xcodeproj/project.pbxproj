@@ -14,6 +14,10 @@
 		3F2C89A721716C5800CD0937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C89A521716C5800CD0937 /* LaunchScreen.storyboard */; };
 		3F2C89B221716C5800CD0937 /* PokerSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C89B121716C5800CD0937 /* PokerSimTests.swift */; };
 		3F2C89BD21716C5800CD0937 /* PokerSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C89BC21716C5800CD0937 /* PokerSimUITests.swift */; };
+		3F2C89CB2171703600CD0937 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C89CA2171703600CD0937 /* PlayerTableViewCell.swift */; };
+		3F2C89CD217170FB00CD0937 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C89CC217170FB00CD0937 /* Card.swift */; };
+		3F2C89CF217240F100CD0937 /* SimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C89CE217240F100CD0937 /* SimViewController.swift */; };
+		3F464C9C2176B86500553FA3 /* HUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F464C9B2176B86500553FA3 /* HUDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3F2C89B821716C5800CD0937 /* PokerSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2C89BC21716C5800CD0937 /* PokerSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerSimUITests.swift; sourceTree = "<group>"; };
 		3F2C89BE21716C5800CD0937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2C89CA2171703600CD0937 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		3F2C89CC217170FB00CD0937 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3F2C89CE217240F100CD0937 /* SimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimViewController.swift; sourceTree = "<group>"; };
+		3F464C9B2176B86500553FA3 /* HUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				3F2C89A321716C5800CD0937 /* Assets.xcassets */,
 				3F2C89A521716C5800CD0937 /* LaunchScreen.storyboard */,
 				3F2C89A821716C5800CD0937 /* Info.plist */,
+				3F2C89CA2171703600CD0937 /* PlayerTableViewCell.swift */,
+				3F2C89CC217170FB00CD0937 /* Card.swift */,
+				3F2C89CE217240F100CD0937 /* SimViewController.swift */,
+				3F464C9B2176B86500553FA3 /* HUDViewController.swift */,
 			);
 			path = PokerSim;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F464C9C2176B86500553FA3 /* HUDViewController.swift in Sources */,
+				3F2C89CB2171703600CD0937 /* PlayerTableViewCell.swift in Sources */,
 				3F2C899F21716C5500CD0937 /* ViewController.swift in Sources */,
+				3F2C89CF217240F100CD0937 /* SimViewController.swift in Sources */,
 				3F2C899D21716C5500CD0937 /* AppDelegate.swift in Sources */,
+				3F2C89CD217170FB00CD0937 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +455,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goapps.pokerSim.PokerSim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goapps.pokerSim.PokerSim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
